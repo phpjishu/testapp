@@ -1,0 +1,7 @@
+<template name="test$059b3dd9">
+  <view class="_view data-v-03459526 content">
+    <text class="_text data-v-03459526 title">{{title}}</text>
+    <navigator url="index" class="_navigator data-v-03459526">跳转到index</navigator>
+    <button class="_button data-v-03459526 weui-btn" type="primary">页面主操作 Normal</button>
+  </view>
+</template>

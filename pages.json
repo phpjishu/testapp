@@ -1,0 +1,107 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "乐乐开心一刻",
+				"navigationBarBackgroundColor": "#67C23A"
+			}
+		}, {
+			"path": "pages/myinfo/index",
+			"style": {
+				"navigationBarTitleText": "我的主页",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#999999"
+						}, {
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#999999"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/myinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "用户信息",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "保存",
+							"fontSize": "14px",
+							"color": "#999999"
+						}]
+					}
+				}
+			}
+		}, {
+
+			"path": "pages/video/index",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"navigationBarBackgroundColor": "#b388ff"
+			}
+		},
+		{
+			"path": "pages/chat/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationBarBackgroundColor": "#ff80ab"
+			}
+		},
+		{
+			"path": "pages/like/index",
+			"style": {
+				"navigationBarTitleText": "喜欢",
+				"navigationBarBackgroundColor": "#ff8a80"
+			}
+		},
+
+		{
+			"path": "pages/shopping/index",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"navigationBarBackgroundColor": "#ff80ab"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Sex Service",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#1AAD19"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#d4237a",
+		"borderStyle": "#d4237a",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/tabs/lele.png",
+			"selectedIconPath": "static/image/tabs/lele_selected.png",
+			"text": "乐乐   "
+		}, {
+			"pagePath": "pages/like/index",
+			"iconPath": "static/image/tabs/like.png",
+			"selectedIconPath": "static/image/tabs/like_selected.png",
+			"text": "喜欢"
+		}, {
+			"pagePath": "pages/chat/index",
+			"iconPath": "static/image/tabs/message.png",
+			"selectedIconPath": "static/image/tabs/message_selected.png",
+			"text": "消息"
+		}, {
+			"pagePath": "pages/myinfo/index",
+			"iconPath": "static/image/tabs/my.png",
+			"selectedIconPath": "static/image/tabs/my_selected.png",
+			"text": "我"
+		}]
+	}
+}

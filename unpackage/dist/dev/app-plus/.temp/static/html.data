@@ -1,0 +1,182 @@
+<table>
+<thead>
+<tr>
+<th style="text-align:left">节点</th>
+<th style="text-align:left">属性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">a</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">abbr</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">b</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">blockquote</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">br</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">code</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">col</td>
+<td style="text-align:left">span，width</td>
+</tr>
+<tr>
+<td style="text-align:left">colgroup</td>
+<td style="text-align:left">span，width</td>
+</tr>
+<tr>
+<td style="text-align:left">dd</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">del</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">div</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">dl</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">dt</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">em</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">fieldset</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">h1</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">h2</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">h3</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">h4</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">h5</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">h6</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">hr</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">i</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">img</td>
+<td style="text-align:left">alt，src，height，width</td>
+</tr>
+<tr>
+<td style="text-align:left">ins</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">label</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">legend</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">li</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">ol</td>
+<td style="text-align:left">start，type</td>
+</tr>
+<tr>
+<td style="text-align:left">p</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">q</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">span</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">strong</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">sub</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">sup</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">table</td>
+<td style="text-align:left">width</td>
+</tr>
+<tr>
+<td style="text-align:left">tbody</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">td</td>
+<td style="text-align:left">colspan，height，rowspan，width</td>
+</tr>
+<tr>
+<td style="text-align:left">tfoot</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">th</td>
+<td style="text-align:left">colspan，height，rowspan，width</td>
+</tr>
+<tr>
+<td style="text-align:left">thead</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">tr</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">ul</td>
+<td style="text-align:left">&nbsp;</td>
+</tr>
+</tbody>
+</table>

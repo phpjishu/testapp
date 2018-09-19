@@ -1,0 +1,7 @@
+
+.test.data-v-7e42caee {
+  position: fixed;
+  left: 100rpx;
+  top: 100rpx;
+  z-index: 9999;
+}
