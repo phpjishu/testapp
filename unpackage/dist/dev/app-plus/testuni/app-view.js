@@ -1062,7 +1062,6 @@ Z([3,'72bb8eca'])
 Z([3,'_view data-v-7e42caee page'])
 Z([3,'_web-view data-v-7e42caee'])
 Z([[7],[3,'url']])
-Z([3,'_view data-v-7e42caee uni-icon uni-icon-arrowdown test'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
 }
 function gz$gwx_4(){
@@ -1307,11 +1306,6 @@ cs.push("./pages/index/index.vue.wxml:web-view:3:6")
 var xC=_mz(z,'web-view',['class',2,'src',1],[],e,s,gg)
 cs.pop()
 _(oB,xC)
-cs.push("./pages/index/index.vue.wxml:view:4:6")
-var oD=_n('view')
-_rz(z,oD,'class',4,e,s,gg)
-cs.pop()
-_(oB,oD)
 cs.pop()
 _(r,oB)
 }catch(err){

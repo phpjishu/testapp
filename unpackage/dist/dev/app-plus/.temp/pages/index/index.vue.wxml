@@ -1,6 +1,5 @@
 <template name="72bb8eca">
   <view class="_view data-v-7e42caee page">
     <web-view src="{{url}}" class="_web-view data-v-7e42caee"></web-view>
-    <view class="_view data-v-7e42caee uni-icon uni-icon-arrowdown test"></view>
   </view>
 </template>
