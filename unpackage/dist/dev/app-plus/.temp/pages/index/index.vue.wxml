@@ -1,5 +1,5 @@
 <template name="72bb8eca">
-  <view class="_view data-v-7e42caee page">
-    <web-view src="{{url}}" class="_web-view data-v-7e42caee"></web-view>
+  <view class="_view data-v-7e42caee page" bindtouchmove="handleProxy" bindtouchstart="handleProxy" bindtouchend="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" style=" {{('min-height:' + (windowHeight + 'px') + ';')}}">
+    <rich-text class="_rich-text data-v-7e42caee richtext" nodes="{{article.content}}"></rich-text>
   </view>
 </template>

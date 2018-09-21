@@ -11,7 +11,7 @@ var __WXML_GLOBAL__ = {
 };
 var $gwx;
 
-/*v0.5vv_20180814_syb_cb_crawl*/window.__wcc_version__='v0.5vv_20180814_syb_cb_crawl';window.__wcc_version_info__={"customComponents":true,"fixZeroRpx":true,"propValueDeepCopy":false};
+/*v0.5vv_20180905_syb_scopedata*/window.__wcc_version__='v0.5vv_20180905_syb_scopedata';window.__wcc_version_info__={"customComponents":true,"fixZeroRpx":true,"propValueDeepCopy":false};
 var $gwxc
 var $gaic={}
 $gwx=function(path,global){
@@ -1025,6 +1025,25 @@ function _gd(p,c,e,d){if(!c)return;if(d[p][c])return d[p][c];for(var x=e[p].i.le
 function _gapi(e,p){if(!p)return [];if($gaic[p]){return $gaic[p]};var ret=[],q=[],h=0,t=0,put={},visited={};q.push(p);visited[p]=true;t++;while(h<t){var a=q[h++];for(var i=0;i<e[a].ic.length;i++){var nd=e[a].ic[i];var np=_grp(nd,e,a);if(np&&!visited[np]){visited[np]=true;q.push(np);t++;}}for(var i=0;a!=p&&i<e[a].ti.length;i++){var ni=e[a].ti[i];var nm=_grp(ni,e,a);if(nm&&!put[nm]){put[nm]=true;ret.push(nm);}}}$gaic[p]=ret;return ret;}
 var $ixc={};function _ic(p,ent,me,e,s,r,gg){var x=_grp(p,ent,me);ent[me].j.push(x);if(x){if($ixc[x]){_wp('-1:include:-1:-1: `'+p+'` is being included in a loop, will be stop.');return;}$ixc[x]=true;try{ent[x].f(e,s,r,gg)}catch(e){}$ixc[x]=false;}else{_wp(me+':include:-1:-1: Included path `'+p+'` not found from `'+me+'`.')}}
 function _w(tn,f,line,c){_wp(f+':template:'+line+':'+c+': Template `'+tn+'` not found.');}function _ev(dom){var changed=false;delete dom.properities;delete dom.n;if(dom.children){do{changed=false;var newch = [];for(var i=0;i<dom.children.length;i++){var ch=dom.children[i];if( ch.tag=='virtual'){changed=true;for(var j=0;ch.children&&j<ch.children.length;j++){newch.push(ch.children[j]);}}else { newch.push(ch); } } dom.children = newch; }while(changed);for(var i=0;i<dom.children.length;i++){_ev(dom.children[i]);}} return dom; }
+function _tsd( root )
+{
+if( root.tag == "wx-wx-scope" ) 
+{
+root.tag = "virtual";
+root.wxCkey = "11";
+root['wxScopeData'] = root.attr['wx:scope-data'];
+delete root.n;
+delete root.raw;
+delete root.generics;
+delete root.attr;
+}
+for( var i = 0 ; root.children && i < root.children.length ; i++ )
+{
+_tsd( root.children[i] );
+}
+return root;
+}
+
 var e_={}
 if(typeof(global.entrys)==='undefined')global.entrys={};e_=global.entrys;
 var d_={}
@@ -1059,9 +1078,15 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
 __WXML_GLOBAL__.ops_cached.$gwx_3=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'72bb8eca'])
+Z([3,'handleProxy'])
+Z(z[1])
+Z(z[1])
 Z([3,'_view data-v-7e42caee page'])
-Z([3,'_web-view data-v-7e42caee'])
-Z([[7],[3,'url']])
+Z([[7],[3,'$k']])
+Z([1,'0'])
+Z([a,[3,' '],[[2,'+'],[[2,'+'],[1,'min-height:'],[[2,'+'],[[7],[3,'windowHeight']],[1,'px']]],[1,';']]])
+Z([3,'_rich-text data-v-7e42caee richtext'])
+Z([[6],[[7],[3,'article']],[3,'content']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
 }
 function gz$gwx_4(){
@@ -1300,10 +1325,9 @@ if(p_[b]){_wl(b,x[3]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/index.vue.wxml:view:2:4")
-var oB=_n('view')
-_rz(z,oB,'class',1,e,s,gg)
-cs.push("./pages/index/index.vue.wxml:web-view:3:6")
-var xC=_mz(z,'web-view',['class',2,'src',1],[],e,s,gg)
+var oB=_mz(z,'view',['bindtouchend',1,'bindtouchmove',1,'bindtouchstart',2,'class',3,'data-comkey',4,'data-eventid',5,'style',6],[],e,s,gg)
+cs.push("./pages/index/index.vue.wxml:rich-text:3:6")
+var xC=_mz(z,'rich-text',['class',8,'nodes',1],[],e,s,gg)
 cs.pop()
 _(oB,xC)
 cs.pop()
@@ -1849,6 +1873,7 @@ env=window.__mergeData__(env,dd);
 }
 try{
 main(env,{},root,global);
+_tsd(root)
 if(typeof(window.__webview_engine_version__)=='undefined'|| window.__webview_engine_version__+1e-6<0.01+1e-6){return _ev(root);}
 }catch(err){
 console.log(cs, env);
