@@ -1,3 +1,6 @@
 <template name="4c19804a">
-  <view class="_view data-v-68e27851"> like index </view>
+  <view class="_view data-v-68e27851">
+    <view class="_view data-v-68e27851 icon-item" wx:key="index" key="{{index}}" wx:for="{{iconClassList}}" wx:for-index="index" wx:for-item="item">
+      <view class="_view data-v-68e27851 uni-icon {{[item]}}"></view>{{item}} </view>
+  </view>
 </template>

@@ -1,5 +1,24 @@
 
-.xinyicontentimg ._img.data-v-7e42caee {
-  width: 100%;
-  height: auto;
+.tools.data-v-7e42caee {
+  position: fixed;
+  height: 80rpx;
+  width: 80rpx;
+  right: 20rpx;
+}
+.tools .uni-icon.data-v-7e42caee {
+  color: #fff;
+  text-shadow: #000 0 0 5rpx;
+  font-size: 80rpx;
+}
+.pervbutton.data-v-7e42caee {
+  bottom: 360rpx;
+}
+.nextbutton.data-v-7e42caee {
+  bottom: 260rpx;
+}
+.likebutton.data-v-7e42caee {
+  bottom: 160rpx;
+}
+.collectionbutton.data-v-7e42caee {
+  bottom: 60rpx;
 }

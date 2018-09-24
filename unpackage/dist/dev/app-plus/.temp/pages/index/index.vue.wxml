@@ -1,5 +1,19 @@
 <template name="72bb8eca">
-  <view class="_view data-v-7e42caee page" bindtouchmove="handleProxy" bindtouchstart="handleProxy" bindtouchend="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" style=" {{('min-height:' + (windowHeight + 'px') + ';')}}">
-    <rich-text class="_rich-text data-v-7e42caee richtext" nodes="{{article.content}}"></rich-text>
+  <view class="_view data-v-7e42caee page" bindtouchmove="handleProxy" bindtouchstart="handleProxy" bindtouchend="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" style=" {{('min-height:' + (windowHeight + 'px') + ';')}}">
+    <view class="_view data-v-7e42caee tools pervbutton" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-7e42caee uni-icon uni-icon-arrowleft"></view>
+    </view>
+    <view class="_view data-v-7e42caee tools nextbutton" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-7e42caee uni-icon uni-icon-arrowright"></view>
+    </view>
+    <view class="_view data-v-7e42caee tools likebutton">
+      <view class="_view data-v-7e42caee uni-icon uni-icon-star-filled"></view>
+    </view>
+    <view class="_view data-v-7e42caee tools collectionbutton">
+      <view class="_view data-v-7e42caee uni-icon uni-icon-chatbubble-filled"></view>
+    </view>
+    <view style="padding: 20rpx;" class="_view data-v-7e42caee">
+      <rich-text class="_rich-text data-v-7e42caee richtext" wx:if="{{article.content}}" nodes="{{article.content}}"></rich-text>
+    </view>
   </view>
 </template>

@@ -6,19 +6,8 @@
 				"navigationBarTextStyle": "white",
 				"navigationBarTitleText": "乐乐开心一刻",
 				"navigationBarBackgroundColor": "#4caf50",
-				// 				"enablePullDownRefresh": true,
-				// 				"onReachBottomDistance": 100,
 				"app-plus": {
-					"bounce": "none",
-					"titleNView": {
-						"buttons": [{
-							"type": "back",
-							"float": "left"
-						}, {
-							"type": "forward",
-							"float": "right"
-						}]
-					}
+					"bounce": "none"
 				}
 			}
 		}, {
