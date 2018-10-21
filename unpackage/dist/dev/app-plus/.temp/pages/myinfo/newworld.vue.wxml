@@ -1,0 +1,11 @@
+<template name="23caa9f2">
+  <view class="_view data-v-aaafafc0">
+    <view class="_view data-v-aaafafc0 uni-list">
+      <view class="_view data-v-aaafafc0 uni-list-cell" hover-class="uni-list-cell-hover">
+        <view class="_view data-v-aaafafc0 uni-list-cell-navigate uni-navigate-right"> 昵称：
+          <text class="_text data-v-aaafafc0 uni-badge uni-badge-inverted uni-navigate-badge">下雨了</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

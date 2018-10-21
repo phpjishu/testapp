@@ -1,16 +1,6 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页
 		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTextStyle": "white",
-				"navigationBarTitleText": "乐乐开心一刻",
-				"navigationBarBackgroundColor": "#4caf50",
-				"app-plus": {
-					"bounce": "none"
-				}
-			}
-		}, {
 			"path": "pages/myinfo/index",
 			"style": {
 				"navigationBarTitleText": "我的主页",
@@ -42,6 +32,51 @@
 							"color": "#999999"
 						}]
 					}
+				}
+			}
+		}, {
+			"path": "pages/myinfo/myorder",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		}, {
+			"path": "pages/myinfo/myreceipt",
+			"style": {
+				"navigationBarTitleText": "我的接单"
+			}
+		}, {
+			"path": "pages/myinfo/mywallet",
+			"style": {
+				"navigationBarTitleText": "我的钱包"
+			}
+		}, {
+			"path": "pages/myinfo/contribution",
+			"style": {
+				"navigationBarTitleText": "我的贡献"
+			}
+		}, {
+			"path": "pages/myinfo/empirical",
+			"style": {
+				"navigationBarTitleText": "我的金币"
+			}
+		}, {
+			"path": "pages/myinfo/vip",
+			"style": {
+				"navigationBarTitleText": "我的VIP"
+			}
+		}, {
+			"path": "pages/myinfo/newworld",
+			"style": {
+				"navigationBarTitleText": "新世界"
+			}
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "乐乐开心一刻",
+				"navigationBarBackgroundColor": "#4caf50",
+				"app-plus": {
+					"bounce": "none"
 				}
 			}
 		}, {

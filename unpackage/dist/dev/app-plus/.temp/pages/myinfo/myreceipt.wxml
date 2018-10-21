@@ -1,0 +1,1 @@
+<import src="/pages/myinfo/myreceipt.vue.wxml" /><template is="aa584872" data="{{ ...$root['0'], $root }}"/>

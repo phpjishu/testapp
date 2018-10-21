@@ -1,9 +1,9 @@
 <template name="72bb8eca">
-  <view class="_view data-v-7e42caee page" bindtouchmove="handleProxy" bindtouchstart="handleProxy" bindtouchend="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" style=" {{('min-height:' + (windowHeight + 'px') + ';')}}">
-    <view class="_view data-v-7e42caee tools pervbutton" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+  <view class="_view data-v-7e42caee page" bindtouchmove="handleProxy" bindtouchstart="handleProxy" bindtouchend="handleProxy" data-eventid="{{'PXb-2'}}" data-comkey="{{$k}}" style=" {{('min-height:' + (windowHeight + 'px') + ';')}}">
+    <view class="_view data-v-7e42caee tools pervbutton" bindtap="handleProxy" data-eventid="{{'opL-0'}}" data-comkey="{{$k}}">
       <view class="_view data-v-7e42caee uni-icon uni-icon-arrowleft"></view>
     </view>
-    <view class="_view data-v-7e42caee tools nextbutton" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+    <view class="_view data-v-7e42caee tools nextbutton" bindtap="handleProxy" data-eventid="{{'l95-1'}}" data-comkey="{{$k}}">
       <view class="_view data-v-7e42caee uni-icon uni-icon-arrowright"></view>
     </view>
     <view class="_view data-v-7e42caee tools likebutton">

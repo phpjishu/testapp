@@ -20,10 +20,10 @@
       <view class="_view data-v-b246dcd8 uni-card-header">我的资产</view>
       <view class="_view data-v-b246dcd8 uni-card-content">
         <view class="_view data-v-b246dcd8 uni-grid-16">
-          <view class="_view data-v-b246dcd8 uni-grid-16-item {{index % 4 === 3 ? 'no-border-right' : ''}}" hover-class="uni-grid-16-item-hover" wx:key="index" key="{{index}}" wx:for="{{myAssets}}" wx:for-index="index" wx:for-item="item">
+          <navigator class="_navigator data-v-b246dcd8 uni-grid-16-item {{index % 4 === 3 ? 'no-border-right' : ''}}" hover-class="uni-grid-16-item-hover" wx:key="index" key="{{index}}" url="{{item.link}}" wx:for="{{myAssets}}" wx:for-index="index" wx:for-item="item">
             <image class="_image data-v-b246dcd8 uni-grid-16-image" src="{{item.icon}}"></image>
             <text class="_text data-v-b246dcd8 uni-grid-16-text">{{item.title}}</text>
-          </view>
+          </navigator>
         </view>
       </view>
     </view>

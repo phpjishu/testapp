@@ -1,0 +1,1 @@
+<import src="/pages/myinfo/newworld.vue.wxml" /><template is="23caa9f2" data="{{ ...$root['0'], $root }}"/>

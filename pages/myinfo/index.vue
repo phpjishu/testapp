@@ -21,11 +21,12 @@
 			<view class="uni-card-header">我的资产</view>
 			<view class="uni-card-content">
 				<view class="uni-grid-16">
-					<view class="uni-grid-16-item" hover-class="uni-grid-16-item-hover" v-for="(item,index) in myAssets" :key="index"
-					 :class="index % 4 === 3 ? 'no-border-right' : ''">
+					<navigator class="uni-grid-16-item" hover-class="uni-grid-16-item-hover" v-for="(item,index) in myAssets" :key="index"
+					 :class="index % 4 === 3 ? 'no-border-right' : ''"
+					 :url="item.link">
 						<image class="uni-grid-16-image" :src="item.icon"></image>
 						<text class="uni-grid-16-text">{{item.title}}</text>
-					</view>
+					</navigator>
 				</view>
 			</view>
 		</view>
@@ -83,28 +84,31 @@
 				myAssets: [{
 					title: "我的订单",
 					icon: "../../static/image/myinfo/order.png",
-					link: "",
+					link: "myorder",
 				}, {
 					title: "接单记录",
 					icon: "../../static/image/myinfo/myorder.png",
-					link: "",
+					link: "myreceipt",
 				}, {
 					title: "我的钱包",
 					icon: "../../static/image/myinfo/money.png",
-					link: ""
+					link: "mywallet"
 				}, {
 					title: "贡献值",
 					icon: "../../static/image/myinfo/integrals.png",
-					link: "",
+					link: "contribution",
 				}, {
-					title: "经验值",
+					title: "我的金币",
 					icon: "../../static/image/myinfo/experience.png",
-					link: "",
+					link: "empirical",
 				}, {
 					title: "我的VIP",
 					icon: "../../static/image/myinfo/vip.png",
-					link: "",
-
+					link: "vip",
+				}, {
+					title: "新世界",
+					icon: "../../static/image/myinfo/newworld.png",
+					link: "newworld",
 				}],
 				newWorld: [{
 					title: "激情视频",

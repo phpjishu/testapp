@@ -1,7 +1,7 @@
 const CONFIG = {
 	appid: "1",
 	secret: "1",
-	apiurl: "http://106.12.11.253:6888",
+	apiurl: "http://106.12.11.253:6999",
 	fileuploadurl: ""
 };
 
